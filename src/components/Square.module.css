@@ -1,0 +1,10 @@
+.box {
+  background-color: rgb(86, 110, 202);
+  width: 70px;
+  height: 70px;
+  margin: 1px;
+}
+
+.box__value {
+  user-select: none;
+}
