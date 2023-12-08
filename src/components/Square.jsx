@@ -14,7 +14,7 @@ const Square = (props) => {
         setBgColor("green");
         setValue("O");
       }
-      props.handleClick({ id: props.key, player: props.player });
+      props.handleClick({ id: props.id, player: props.player });
     }
   };
 
