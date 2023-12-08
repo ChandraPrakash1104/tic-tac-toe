@@ -20,7 +20,6 @@ const Matrix = (props) => {
     if (per.player) {
       mat[i][j] = 1;
     } else mat[i][j] = 2;
-    console.log(...mat);
     setFinalMatrix(mat);
   };
 
